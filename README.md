@@ -1,5 +1,7 @@
 # EduPath India
 
+## Live site - [paths-after-10th.pages.dev](https://paths-after-10th.pages.dev)
+
 Interactive roadmap for Indian education and career paths.
 
 ## Features
