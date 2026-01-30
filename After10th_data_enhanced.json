@@ -1,0 +1,911 @@
+{
+  "meta": {
+    "title": "Indian Education Comprehensive Roadmap",
+    "version": "2.1",
+    "description": "A structured path from Class 10 to PhD with detailed career prospects, salary info, and top colleges.",
+    "last_updated": "2026-01-30",
+    "target_audience": [
+      "Students",
+      "Parents",
+      "Career Counselors"
+    ],
+    "note": "All salary figures in INR are approximate and vary by experience, location, and institution prestige"
+  },
+  "roadmap": [
+    {
+      "id": "10th_std",
+      "title": "10th Standard",
+      "type": "root",
+      "description": "The starting point of your higher education journey.",
+      "color": "slate",
+      "children": [
+        {
+          "id": "science_pcm",
+          "title": "Science (PCM)",
+          "description": "Physics, Chemistry, Maths. For Logic, Tech & Engineering.",
+          "color": "blue",
+          "stream_details": {
+            "subjects": [
+              "Physics",
+              "Chemistry",
+              "Mathematics",
+              "English",
+              "Optional (CS/Hindi/EVS)"
+            ],
+            "best_for": "Logical thinking, problem-solving, building technology",
+            "career_scope": "Very High - Growing demand in IT, Engineering, Startups",
+            "avg_starting_salary": "\u20b95,00,000 - \u20b98,00,000 p.a.",
+            "job_market": "Extremely strong; CSE/IT roles are highest paid"
+          },
+          "children": [
+            {
+              "id": "btech",
+              "title": "B.Tech / B.E.",
+              "duration": "4 Years",
+              "exams": [
+                "JEE Main",
+                "JEE Advanced",
+                "BITSAT",
+                "MHTCET"
+              ],
+              "sources": [
+                "https://jeemain.nta.nic.in/"
+              ],
+              "specializations": [
+                "Computer Science & Engineering",
+                "Information Technology",
+                "Mechanical Engineering",
+                "Electrical Engineering",
+                "Civil Engineering",
+                "Electronics & Communication",
+                "Aerospace Engineering",
+                "Biomedical Engineering",
+                "Data Science & AI"
+              ],
+              "top_colleges": [
+                "IIT Delhi, IIT Bombay, IIT Madras, IIT Kanpur, IIT Kharagpur",
+                "NIT Trichy, NIT Surathkal, NIT Warangal",
+                "BITS Pilani, VIT Vellore, Manipal Institute",
+                "Delhi Technological University (DTU)",
+                "Mumbai University - K.J. Somaiya"
+              ],
+              "avg_salary_after_grad": "\u20b96,00,000 - \u20b912,00,000 p.a. (IIT/NIT graduates)",
+              "top_recruiters": [
+                "Google, Microsoft, Amazon, Goldman Sachs, Deloitte, TCS, Infosys, Wipro"
+              ],
+              "career_paths": [
+                "Software Engineer",
+                "Hardware Engineer",
+                "Data Scientist",
+                "Product Manager",
+                "Entrepreneur"
+              ],
+              "children": [
+                {
+                  "id": "mtech",
+                  "title": "M.Tech / ME",
+                  "duration": "2 Years",
+                  "exams": [
+                    "GATE"
+                  ],
+                  "description": "Specializations: AI, VLSI, Robotics, Data Science.",
+                  "gate_score_requirement": "550+ (for top colleges)",
+                  "funding": "Many PSU jobs provide funding/sponsorship",
+                  "avg_salary_after_mtech": "\u20b910,00,000 - \u20b915,00,000 p.a.",
+                  "specializations": [
+                    "Artificial Intelligence & Machine Learning",
+                    "VLSI Design",
+                    "Robotics",
+                    "Power Systems",
+                    "Structural Engineering",
+                    "Data Science",
+                    "Cyber Security",
+                    "Cloud Computing"
+                  ],
+                  "top_mtech_colleges": [
+                    "IITs (all)",
+                    "IISc Bangalore",
+                    "BITS Pilani (Master's)"
+                  ],
+                  "children": [
+                    {
+                      "id": "phd_engg",
+                      "title": "PhD in Engineering",
+                      "duration": "4-6 Years",
+                      "description": "Deep research in technology.",
+                      "sources": [
+                        "https://iitd.ac.in/research"
+                      ],
+                      "monthly_stipend": "\u20b931,000 - \u20b935,000 during PhD",
+                      "career_prospects": [
+                        "Research Scientist",
+                        "Professor",
+                        "Industry R&D Lead"
+                      ],
+                      "top_phd_institutions": [
+                        "IITs",
+                        "IISc Bangalore",
+                        "CSIR Labs",
+                        "DRDO",
+                        "ISRO"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "psu_job",
+                  "title": "PSU Jobs",
+                  "duration": "Job directly after B.Tech (12+ years career span)",
+                  "description": "Jobs in ONGC, NTPC, BHEL via GATE score.",
+                  "exam_requirement": "GATE score above 700+ (competitive)",
+                  "salary_range": "\u20b98,00,000 - \u20b920,00,000 p.a. with allowances",
+                  "benefits": [
+                    "Job Security",
+                    "Pension",
+                    "Health Insurance",
+                    "Gratuity",
+                    "International Postings"
+                  ],
+                  "major_psu_recruiters": [
+                    "ONGC (Oil and Natural Gas Corporation)",
+                    "NTPC (National Thermal Power Corporation)",
+                    "BHEL (Bharat Heavy Electricals Limited)",
+                    "Indian Oil Corporation",
+                    "Power Grid Corporation of India",
+                    "Hindustan Petroleum"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "architecture",
+              "title": "B.Arch",
+              "duration": "5 Years",
+              "exams": [
+                "NATA",
+                "JEE Paper 2"
+              ],
+              "sources": [
+                "https://www.nata.in/"
+              ],
+              "description": "Building design, urban planning, sustainable architecture",
+              "subjects_in_course": [
+                "Architectural Design",
+                "Building Technology",
+                "Urban Planning",
+                "Landscape Architecture",
+                "Sustainable Design",
+                "History & Theory of Architecture"
+              ],
+              "avg_starting_salary": "\u20b94,00,000 - \u20b96,00,000 p.a.",
+              "top_colleges": [
+                "School of Planning and Architecture (SPA) Delhi",
+                "CEPT University, Ahmedabad",
+                "Rajiv Gandhi School of Architecture",
+                "MIT Institute of Design",
+                "Manipal Institute of Technology"
+              ],
+              "career_options": [
+                "Architect",
+                "Urban Planner",
+                "Interior Designer",
+                "Real Estate Manager",
+                "Sustainable Design Consultant"
+              ],
+              "job_market": "Moderate with increasing growth in green architecture"
+            },
+            {
+              "id": "pure_science",
+              "title": "B.Sc / BS-MS (Research)",
+              "duration": "3-5 Years",
+              "exams": [
+                "IISER Aptitude",
+                "NEST",
+                "CUET"
+              ],
+              "description": "For future Scientists. Physics, Maths, Chem, Stats.",
+              "sources": [
+                "https://www.iiseradmission.in/"
+              ],
+              "specializations": [
+                "Physics",
+                "Mathematics",
+                "Chemistry",
+                "Statistics",
+                "Biochemistry"
+              ],
+              "top_colleges": [
+                "Indian Institute of Science Education and Research (IISER) - Pune, Kolkata, Trivandrum",
+                "Chennai Mathematical Institute",
+                "Delhi University - St. Stephen's College",
+                "Ramakrishna Mission Vivekananda University"
+              ],
+              "avg_starting_salary": "\u20b93,50,000 - \u20b95,00,000 p.a. (research fellowships \u20b925,000-\u20b931,000/month)",
+              "career_paths": [
+                "Research Scientist",
+                "University Professor",
+                "Data Analyst",
+                "Lab Technician"
+              ],
+              "children": [
+                {
+                  "id": "msc_phy",
+                  "title": "M.Sc Physics/Maths",
+                  "duration": "2 Years",
+                  "exams": [
+                    "IIT JAM",
+                    "TIFR GS"
+                  ],
+                  "description": "Advanced specialization in Physics or Mathematics",
+                  "jam_cutoff": "Physics: 30-40 rank range for IITs",
+                  "monthly_stipend_during_msc": "No stipend for non-research M.Sc",
+                  "top_msc_colleges": [
+                    "IITs",
+                    "IISc",
+                    "Delhi University",
+                    "ISI Kolkata"
+                  ],
+                  "children": [
+                    {
+                      "id": "phd_phy",
+                      "title": "PhD (Doctorate)",
+                      "duration": "4-6 Years",
+                      "description": "Astrophysics, Quantum Computing, Cosmology.",
+                      "sources": [
+                        "https://www.iiap.res.in/",
+                        "https://www.isro.gov.in/"
+                      ],
+                      "monthly_stipend": "\u20b931,000 - \u20b935,000",
+                      "research_areas": [
+                        "Astrophysics & Cosmology",
+                        "Quantum Computing & Quantum Information",
+                        "Particle Physics",
+                        "Condensed Matter Physics",
+                        "Number Theory & Pure Mathematics"
+                      ],
+                      "top_phd_research_institutes": [
+                        "Indian Institute of Astrophysics (IIA)",
+                        "Tata Institute of Fundamental Research (TIFR)",
+                        "Raman Research Institute",
+                        "Indian Institute of Science (IISc)"
+                      ],
+                      "career_post_phd": [
+                        "Research Scientist",
+                        "University Faculty",
+                        "CSIR/Government Researcher",
+                        "International Postdocs"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nda",
+              "title": "National Defence Academy",
+              "duration": "3 Years (2 years NDA + 3 years Officer Training)",
+              "description": "Join Army/Navy/AirForce as Officer.",
+              "exams": [
+                "NDA Exam (UPSC)"
+              ],
+              "sources": [
+                "https://upsc.gov.in/"
+              ],
+              "eligibility": "12th pass, age 16.5-19.5 years, Indian national",
+              "exam_frequency": "Twice yearly (January & September)",
+              "selection_stages": [
+                "Written Exam",
+                "SSB Interview",
+                "Medical Exam"
+              ],
+              "commission_details": "After NDA, get permanent commission with rank of Lieutenant",
+              "salary_as_officer": "\u20b956,100 basic pay + allowances (\u20b91,50,000+ p.a. total)",
+              "career_growth": "Can rise to ranks of Colonel/Group Captain/Admiral with \u20b92,00,000+ p.a.",
+              "additional_benefits": [
+                "Free housing",
+                "Free medical",
+                "Pension",
+                "International postings",
+                "Leadership training"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "science_pcb",
+          "title": "Science (BiPC)",
+          "description": "Physics, Chemistry, Biology. For Medical & Life Sciences.",
+          "color": "emerald",
+          "stream_details": {
+            "subjects": [
+              "Physics",
+              "Chemistry",
+              "Biology",
+              "English",
+              "Optional"
+            ],
+            "best_for": "Medical aspirants, healthcare professionals, life science researchers",
+            "career_scope": "Very High - Healthcare demand always increasing",
+            "avg_starting_salary": "\u20b95,00,000 - \u20b912,00,000 p.a. (doctors)",
+            "job_security": "Excellent - Healthcare is essential sector"
+          },
+          "children": [
+            {
+              "id": "mbbs",
+              "title": "MBBS / BDS",
+              "duration": "5.5 Years (4.5 years study + 1 year internship)",
+              "exams": [
+                "NEET UG"
+              ],
+              "sources": [
+                "https://neet.nta.nic.in/"
+              ],
+              "neet_score_required": "650+ (for government colleges)",
+              "top_colleges": [
+                "AIIMS Delhi, AIIMS Mumbai, AIIMS Bangalore",
+                "Christian Medical College (CMC) Vellore",
+                "St. John's Medical College, Bangalore",
+                "Maulana Azad Medical College, Delhi",
+                "King George's Medical University, Lucknow"
+              ],
+              "mbbs_avg_salary": "\u20b95,00,000 - \u20b910,00,000 p.a. (starting)",
+              "bds_avg_salary": "\u20b93,00,000 - \u20b96,00,000 p.a. (starting)",
+              "career_options": [
+                "General Physician",
+                "Surgeon",
+                "Dentist",
+                "Hospital Administrator",
+                "Medical Researcher"
+              ],
+              "children": [
+                {
+                  "id": "md_ms",
+                  "title": "MD / MS",
+                  "duration": "3 Years",
+                  "exams": [
+                    "NEET PG",
+                    "INI-CET"
+                  ],
+                  "description": "Post-graduation specialization",
+                  "neet_pg_score_required": "450+ (top colleges)",
+                  "specializations": [
+                    "Medicine",
+                    "Surgery",
+                    "Obstetrics & Gynecology",
+                    "Pediatrics",
+                    "Anesthesia",
+                    "Radiology",
+                    "Pathology",
+                    "Psychiatry"
+                  ],
+                  "md_ms_salary": "\u20b98,00,000 - \u20b915,00,000 p.a.",
+                  "children": [
+                    {
+                      "id": "dm_mch",
+                      "title": "Super Speciality (DM/MCh)",
+                      "duration": "3 Years",
+                      "description": "Cardiology, Neurology, Oncology.",
+                      "specialties": [
+                        "Cardiology",
+                        "Neurology & Neurosurgery",
+                        "Oncology",
+                        "Endocrinology",
+                        "Gastroenterology",
+                        "Nephrology",
+                        "Interventional Radiology"
+                      ],
+                      "dm_salary": "\u20b915,00,000 - \u20b925,00,000 p.a.",
+                      "career_peak": "Can earn \u20b930,00,000+ p.a. in private practice"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bsc_bio",
+              "title": "B.Sc Life Sciences",
+              "duration": "3 Years",
+              "exams": [
+                "CUET"
+              ],
+              "description": "Zoology, Botany, Microbiology, Genetics.",
+              "specializations": [
+                "Microbiology",
+                "Botany",
+                "Zoology",
+                "Genetics",
+                "Biotechnology",
+                "Marine Biology"
+              ],
+              "top_colleges": [
+                "Delhi University (Miranda House, Ramakrishna College)",
+                "Madras Christian College, Chennai",
+                "St. Xavier's College, Mumbai",
+                "Hindu College, Delhi",
+                "IISER campuses"
+              ],
+              "avg_starting_salary": "\u20b92,50,000 - \u20b94,00,000 p.a.",
+              "job_opportunities": [
+                "Research Assistant",
+                "Quality Control Analyst",
+                "Medical Lab Technician",
+                "Field Researcher"
+              ],
+              "children": [
+                {
+                  "id": "msc_bio",
+                  "title": "M.Sc",
+                  "duration": "2 Years",
+                  "exams": [
+                    "IIT JAM",
+                    "GAT-B"
+                  ],
+                  "description": "Advanced Life Sciences specialization",
+                  "avg_salary_with_msc": "\u20b93,50,000 - \u20b96,00,000 p.a.",
+                  "children": [
+                    {
+                      "id": "phd_bio",
+                      "title": "PhD Research",
+                      "duration": "4-6 Years",
+                      "description": "CRISPR, Virology, Marine Biology, Neuroscience.",
+                      "sources": [
+                        "https://rcb.res.in/"
+                      ],
+                      "monthly_stipend": "\u20b931,000 - \u20b935,000",
+                      "research_domains": [
+                        "CRISPR & Gene Editing",
+                        "Virology & Immunology",
+                        "Neuroscience & Brain Research",
+                        "Marine & Environmental Biology",
+                        "Plant Biotechnology",
+                        "Microbial Genetics"
+                      ],
+                      "top_research_institutes": [
+                        "Rajendra Prasad Centre for Ophthalmic Sciences",
+                        "National Institute of Immunology (NII)",
+                        "Centre for Cellular and Molecular Biology (CCMB)",
+                        "Institute of Life Sciences, Bhubaneswar"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "commerce",
+          "title": "Commerce (MEC/CEC)",
+          "description": "Finance, Business, Economics, Law.",
+          "color": "amber",
+          "stream_details": {
+            "subjects": [
+              "Accountancy",
+              "Business Studies",
+              "Economics",
+              "Mathematics/IP",
+              "English"
+            ],
+            "best_for": "Aspiring entrepreneurs, finance professionals, analysts",
+            "career_scope": "Very High - Finance sector is booming",
+            "avg_starting_salary": "\u20b94,50,000 - \u20b98,00,000 p.a.",
+            "job_sectors": [
+              "Banking",
+              "Insurance",
+              "Stock Markets",
+              "Accounting Firms",
+              "Corporate Finance"
+            ]
+          },
+          "children": [
+            {
+              "id": "ca_cs",
+              "title": "CA / CS / CMA",
+              "duration": "4.5-6 Years (including articleship)",
+              "description": "Professional certifications. Can be done alongside degree.",
+              "exams": [
+                "CA Foundation",
+                "CSEET"
+              ],
+              "sources": [
+                "https://www.icai.org/"
+              ],
+              "ca_details": {
+                "duration": "4.5 Years total",
+                "stages": [
+                  "Foundation (4 months)",
+                  "Intermediate (8 months)",
+                  "Articleship (3 years)",
+                  "Final"
+                ],
+                "pass_rate": "15-20% (highly competitive)",
+                "salary_after_ca": "\u20b98,00,000 - \u20b915,00,000 p.a.",
+                "senior_ca_income": "\u20b920,00,000 - \u20b950,00,000+ p.a. (self-practice)"
+              },
+              "cs_details": {
+                "duration": "4.5 Years total",
+                "purpose": "Corporate secretarial, governance, compliance",
+                "salary_after_cs": "\u20b96,00,000 - \u20b912,00,000 p.a.",
+                "roles": [
+                  "Company Secretary",
+                  "Compliance Officer",
+                  "Legal Advisor"
+                ]
+              },
+              "cma_details": {
+                "duration": "4.5 Years total",
+                "purpose": "Cost & management accounting",
+                "salary_after_cma": "\u20b96,00,000 - \u20b910,00,000 p.a.",
+                "roles": [
+                  "Cost Accountant",
+                  "Financial Analyst",
+                  "Budget Manager"
+                ]
+              },
+              "top_recruiters": [
+                "Big 4 (Deloitte, KPMG, EY, PwC)",
+                "Grant Thornton",
+                "BSR & Associates"
+              ]
+            },
+            {
+              "id": "bcom",
+              "title": "B.Com / BBA",
+              "duration": "3 Years (B.Com) / 4 Years (BBA)",
+              "exams": [
+                "CUET",
+                "IPMAT"
+              ],
+              "description": "Bachelor of Commerce or Business Administration",
+              "avg_starting_salary_bcom": "\u20b93,00,000 - \u20b95,00,000 p.a.",
+              "avg_starting_salary_bba": "\u20b94,00,000 - \u20b97,00,000 p.a.",
+              "top_bcom_colleges": [
+                "Shri Ram College of Commerce (SRCC), Delhi",
+                "Hindu College, Delhi",
+                "Loyola College, Chennai",
+                "St. Xavier's College, Mumbai"
+              ],
+              "top_bba_colleges": [
+                "IIM Indore",
+                "Symbiosis Institute of Business Management",
+                "Great Lakes Institute of Management",
+                "Flame University, Pune"
+              ],
+              "children": [
+                {
+                  "id": "mba",
+                  "title": "MBA",
+                  "duration": "2 Years",
+                  "exams": [
+                    "CAT",
+                    "XAT",
+                    "GMAT"
+                  ],
+                  "sources": [
+                    "https://iimcat.ac.in/"
+                  ],
+                  "cat_score_required": "95+ percentile (for IIM)",
+                  "specializations": [
+                    "Finance",
+                    "Marketing",
+                    "Operations",
+                    "Human Resources",
+                    "Business Analytics",
+                    "Entrepreneurship",
+                    "International Business"
+                  ],
+                  "avg_salary_iim_mba": "\u20b920,00,000 - \u20b930,00,000 p.a.",
+                  "avg_salary_other_mba": "\u20b910,00,000 - \u20b915,00,000 p.a.",
+                  "top_mba_colleges": [
+                    "IIM A, B, C (Delhi, Bangalore, Calcutta)",
+                    "ISB Hyderabad",
+                    "XLRI Jamshedpur",
+                    "Great Lakes Chennai"
+                  ],
+                  "top_recruiters": [
+                    "McKinsey",
+                    "Boston Consulting Group (BCG)",
+                    "Bain & Company",
+                    "Goldman Sachs",
+                    "JPMC"
+                  ]
+                },
+                {
+                  "id": "phd_eco",
+                  "title": "PhD Economics/Finance",
+                  "duration": "4-6 Years",
+                  "description": "Behavioral Finance, Public Policy.",
+                  "sources": [
+                    "https://www.rbi.org.in/"
+                  ],
+                  "monthly_stipend": "\u20b931,000 - \u20b935,000",
+                  "research_areas": [
+                    "Behavioral Finance",
+                    "Public Policy Economics",
+                    "Development Economics",
+                    "Monetary Policy",
+                    "Financial Markets"
+                  ],
+                  "career_options": [
+                    "Economist at RBI/Government",
+                    "University Professor",
+                    "Think Tank Researcher",
+                    "Private Sector Analyst"
+                  ],
+                  "top_universities": [
+                    "Delhi School of Economics",
+                    "JNU",
+                    "ISI Delhi",
+                    "IIM Research Centers"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "arts",
+          "title": "Arts & Humanities",
+          "description": "Society, Policy, Design, Media.",
+          "color": "rose",
+          "stream_details": {
+            "subjects": [
+              "History",
+              "Political Science",
+              "Geography",
+              "Psychology",
+              "English",
+              "Optional (Hindi/Philosophy/Sociology)"
+            ],
+            "best_for": "Critical thinkers, future leaders, creative minds",
+            "career_scope": "Moderate to High - Diverse opportunities",
+            "avg_starting_salary": "\u20b93,00,000 - \u20b96,00,000 p.a.",
+            "unique_advantage": "Flexibility to pursue diverse career paths"
+          },
+          "children": [
+            {
+              "id": "law",
+              "title": "BA LLB (Law)",
+              "duration": "5 Years",
+              "exams": [
+                "CLAT",
+                "AILET"
+              ],
+              "sources": [
+                "https://consortiumofnlus.ac.in/"
+              ],
+              "clat_score_required": "120+ out of 150",
+              "top_law_colleges": [
+                "National Law School of India University (NLSIU), Bangalore",
+                "Nalsar University of Law, Hyderabad",
+                "Gujarat National Law University",
+                "CHRIST University, Bangalore",
+                "NMIMS Mumbai",
+                "Jamia Millia Islamia, Delhi"
+              ],
+              "avg_starting_salary": "\u20b95,00,000 - \u20b98,00,000 p.a.",
+              "senior_lawyer_income": "\u20b920,00,000 - \u20b950,00,000+ p.a.",
+              "specializations": [
+                "Corporate Law",
+                "Criminal Law",
+                "Intellectual Property Law",
+                "Environmental Law",
+                "Family Law",
+                "Constitutional Law"
+              ],
+              "career_options": [
+                "Lawyer/Advocate",
+                "Judge",
+                "Legal Consultant",
+                "Government Officer",
+                "In-house Counsel"
+              ],
+              "children": [
+                {
+                  "id": "judge",
+                  "title": "Judiciary / Litigation",
+                  "duration": "5 years LLB + experience + Civil Services Exam (optional)",
+                  "description": "Civil Judge, Corporate Lawyer.",
+                  "civil_judge_salary": "\u20b956,100 basic + allowances (\u20b91,50,000+ p.a.)",
+                  "judge_advancement": "Can rise to High Court Judge (\u20b92,50,000+ p.a.) or Supreme Court (\u20b93,00,000+ p.a.)",
+                  "requirement_for_judge": "5 years bar practice + clearing Judicial Services Exam"
+                }
+              ]
+            },
+            {
+              "id": "design",
+              "title": "B.Des (Design)",
+              "duration": "4 Years",
+              "exams": [
+                "NIFT",
+                "NID",
+                "UCEED"
+              ],
+              "sources": [
+                "https://nift.ac.in/"
+              ],
+              "specializations": [
+                "Fashion Design",
+                "Graphic Design",
+                "Furniture Design",
+                "Interior Design",
+                "Product Design",
+                "Communication Design"
+              ],
+              "top_colleges": [
+                "National Institute of Fashion Technology (NIFT)",
+                "National Institute of Design (NID), Ahmedabad",
+                "Pearl Academy",
+                "Istituto Marangoni (if going abroad)",
+                "UPES School of Design"
+              ],
+              "avg_starting_salary": "\u20b93,00,000 - \u20b95,00,000 p.a.",
+              "senior_designer_income": "\u20b910,00,000 - \u20b920,00,000+ p.a.",
+              "career_opportunities": [
+                "Fashion Designer",
+                "UX/UI Designer",
+                "Graphic Designer",
+                "Interior Designer",
+                "Design Consultant"
+              ],
+              "industry_demand": "High - Growing fashion and tech design sectors"
+            },
+            {
+              "id": "upsc",
+              "title": "Civil Services",
+              "duration": "Variable - Study period + career span 35+ years",
+              "exams": [
+                "UPSC CSE"
+              ],
+              "description": "IAS, IPS, IFS - The Administrative Backbone.",
+              "sources": [
+                "https://upsc.gov.in/"
+              ],
+              "three_services": {
+                "ias_indian_admin_service": {
+                  "rank": "District Magistrate, Chief Secretary to PM/CM",
+                  "entry_salary": "\u20b956,100 basic + allowances (~\u20b91,30,000 p.a.)",
+                  "max_salary": "\u20b92,50,000+ p.a. as Cabinet Secretary"
+                },
+                "ips_indian_police_service": {
+                  "rank": "Police Commissioner, Police Inspector General",
+                  "entry_salary": "\u20b956,100 basic (similar to IAS)",
+                  "responsibilities": "Law enforcement, public order"
+                },
+                "ifs_indian_forest_service": {
+                  "rank": "Chief Wildlife Warden, Forest Commissioner",
+                  "entry_salary": "\u20b956,100 basic",
+                  "focus": "Environmental conservation, wildlife protection"
+                }
+              },
+              "exam_difficulty": "Extremely high - 0.1% selection rate",
+              "attempt_limit": "Maximum 6 attempts or age 32, whichever comes first",
+              "life_benefits": [
+                "Pension",
+                "Respect",
+                "Influence",
+                "International postings",
+                "Free housing",
+                "Powerful network"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "diploma",
+          "title": "Polytechnic / Diploma",
+          "duration": "3 Years (after 10th) to 2 Years (after 12th)",
+          "description": "Skill-based technical education after 10th.",
+          "color": "zinc",
+          "stream_details": {
+            "best_for": "Practical learners, those wanting early job entry",
+            "career_scope": "High - Immediate employment opportunities",
+            "avg_starting_salary": "\u20b92,50,000 - \u20b94,00,000 p.a.",
+            "unique_advantage": "Lateral entry to B.Tech available"
+          },
+          "children": [
+            {
+              "id": "poly_eng",
+              "title": "Engineering Diploma",
+              "duration": "3 Years (3-year diploma after 10th)",
+              "exams": [
+                "PolyCET"
+              ],
+              "description": "Technical hands-on training",
+              "specializations": [
+                "Civil Engineering",
+                "Mechanical Engineering",
+                "Electrical Engineering",
+                "Electronics Engineering",
+                "Automobile Engineering",
+                "Computer Engineering"
+              ],
+              "top_polytechnic_colleges": [
+                "Government Polytechnic Mumbai",
+                "Government Polytechnic Pune",
+                "Govt. Polytechnic Vijayawada",
+                "Directorate of Technical Education (state-wise)"
+              ],
+              "avg_diploma_salary": "\u20b92,50,000 - \u20b94,00,000 p.a.",
+              "job_roles": [
+                "Junior Engineer",
+                "Technician",
+                "Supervisor",
+                "Site Engineer"
+              ],
+              "children": [
+                {
+                  "id": "btech_lat",
+                  "title": "B.Tech (Lateral Entry)",
+                  "duration": "2 Years (Join in 2nd year with lateral entry)",
+                  "description": "Join directly in 2nd Year B.Tech after diploma.",
+                  "exams": [
+                    "ECET"
+                  ],
+                  "advantage": "Complete B.Tech in 6 years total (3 diploma + 2 B.Tech via lateral)",
+                  "salary_improvement": "\u20b95,00,000 - \u20b98,00,000 p.a. after B.Tech"
+                }
+              ]
+            },
+            {
+              "id": "iti_trades",
+              "title": "ITI (Industrial Training Institute)",
+              "duration": "6 months to 2 Years",
+              "description": "Vocational training for skilled trades",
+              "trades_available": [
+                "Electrician",
+                "Fitter",
+                "Welder",
+                "Mechanic (Diesel/Auto)",
+                "Computer Assistant",
+                "Stenographer",
+                "Plumber",
+                "Mason"
+              ],
+              "top_iti_institutes": [
+                "Government ITI institutions (state-wise)",
+                "YMCA Delhi",
+                "State Government Industrial Training Centers"
+              ],
+              "avg_iti_salary": "\u20b91,50,000 - \u20b93,00,000 p.a.",
+              "job_sectors": [
+                "Manufacturing",
+                "Construction",
+                "Utilities",
+                "Automotive",
+                "Railways"
+              ],
+              "apprenticeship_schemes": [
+                "NAPS (National Apprenticeship Promotion Scheme)",
+                "Prime Minister's Internship Scheme"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "admission_tips": {
+    "planning_timeline": {
+      "class_10": "Take board exams seriously, identify stream interest",
+      "stream_selection": "Consult with counselors, take aptitude tests",
+      "class_11_12": "Focus on studies, take coaching if needed, practice entrance exams",
+      "entrance_prep": "Start 6-12 months before exams, take mock tests"
+    },
+    "financial_assistance": {
+      "scholarships": [
+        "Merit-based scholarships from government",
+        "Merit-cum-means scholarships",
+        "Central/State scholarships for SC/ST/OBC"
+      ],
+      "loans": [
+        "Educational loans from banks at subsidized rates",
+        "Government-backed schemes"
+      ],
+      "free_education": [
+        "Central universities have lower fees than private institutions",
+        "Government colleges are highly subsidized"
+      ]
+    }
+  }
+}

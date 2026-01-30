@@ -2,10 +2,42 @@ import React, { memo } from 'react';
 import { Handle, Position, NodeProps } from 'reactflow';
 import { CustomNodeData } from '../types';
 import { getColorClasses } from '../utils/colorMap';
-import { Info, Clock, Sparkles } from 'lucide-react';
+import { Info, Clock, Sparkles, ArrowLeft } from 'lucide-react';
 
 const CustomNode = ({ data, isConnectable }: NodeProps<CustomNodeData>) => {
   const colors = getColorClasses(data.color);
+
+  // Determine if this node has meaningful data to show in the details modal
+  const hasDetailsToShow = () => {
+    const node = data.originalData;
+
+    // Always show if it has a meta_ref (language details)
+    if (node.meta_ref) return true;
+
+    // Check for various enhanced fields
+    const hasEnhancedData = !!(
+      node.description ||
+      (node.exams && node.exams.length > 0) ||
+      node.stream_details ||
+      node.avg_starting_salary ||
+      node.salary_range ||
+      node.avg_salary_after_grad ||
+      node.specializations ||
+      node.top_colleges ||
+      node.top_recruiters ||
+      node.career_paths ||
+      node.career_options ||
+      node.learning_resources ||
+      node.career_trajectories ||
+      node.benefits ||
+      node.warning ||
+      node.note ||
+      node.recommendation ||
+      node.relatedMap
+    );
+
+    return hasEnhancedData;
+  };
 
   return (
     <div
@@ -20,7 +52,20 @@ const CustomNode = ({ data, isConnectable }: NodeProps<CustomNodeData>) => {
           className="absolute -top-6 -right-6 bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white text-xs font-bold py-1.5 px-3 rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all flex items-center gap-1 z-50 animate-pulse"
         >
           <Sparkles size={12} />
-          Help Me Choose?
+          Help Me Choose
+        </button>
+      )}
+
+      {data.originalData.showBackToProgramming && data.onBackClick && (
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            data.onBackClick?.();
+          }}
+          className="absolute -top-6 -left-6 bg-slate-800 text-white text-xs font-bold py-1.5 px-3 rounded-full shadow-lg hover:shadow-xl hover:scale-110 transition-all flex items-center gap-1 z-50 border-2 border-white"
+        >
+          <ArrowLeft size={12} />
+          Back to Hub
         </button>
       )}
 
@@ -36,13 +81,15 @@ const CustomNode = ({ data, isConnectable }: NodeProps<CustomNodeData>) => {
           <h3 className={`font-bold text-md leading-tight ${colors.text}`}>
             {data.label}
           </h3>
-          <button
-            onClick={() => data.onDetailsClick(data.originalData.id)}
-            className="p-1 hover:bg-black/5 rounded-full transition-colors"
-            title="View Details"
-          >
-            <Info size={18} className="text-slate-500" />
-          </button>
+          {hasDetailsToShow() && (
+            <button
+              onClick={() => data.onDetailsClick(data.originalData.id)}
+              className="p-1 hover:bg-black/5 rounded-full transition-colors"
+              title="View Details"
+            >
+              <Info size={18} className="text-slate-500" />
+            </button>
+          )}
         </div>
 
         {data.duration && (

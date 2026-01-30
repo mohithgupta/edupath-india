@@ -13,7 +13,13 @@ export const getLayoutedElements = (
   const dagreGraph = new dagre.graphlib.Graph();
   dagreGraph.setDefaultEdgeLabel(() => ({}));
 
-  dagreGraph.setGraph({ rankdir: direction });
+  // Increased spacing for less congested view
+  dagreGraph.setGraph({
+    rankdir: direction,
+    ranksep: 150,  // Horizontal spacing between ranks (columns in LR layout)
+    nodesep: 100,  // Vertical spacing between nodes in the same rank
+    edgesep: 50    // Spacing between edges
+  });
 
   nodes.forEach((node) => {
     dagreGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight });
@@ -44,7 +50,8 @@ export const getLayoutedElements = (
 export const parseRoadmapToFlow = (
   rootNode: RoadmapNode,
   onDetailsClick: (id: string) => void,
-  onExtrasClick?: () => void
+  onExtrasClick?: () => void,
+  onBackClick?: () => void
 ) => {
   const nodes: Node[] = [];
   const edges: Edge[] = [];
@@ -66,6 +73,7 @@ export const parseRoadmapToFlow = (
         originalData: currentNode,
         onDetailsClick,
         onExtrasClick,
+        onBackClick,
       },
       position: { x: 0, y: 0 },
     });
@@ -88,5 +96,5 @@ export const parseRoadmapToFlow = (
 
   traverse(rootNode);
 
-  return { initialNodes: nodes, initialEdges: edges };
+  return { nodes, edges };
 };

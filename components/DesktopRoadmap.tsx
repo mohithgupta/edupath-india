@@ -16,18 +16,19 @@ import { getLayoutedElements, parseRoadmapToFlow } from '../utils/graphUtils';
 
 interface DesktopRoadmapProps {
   root: RoadmapNode;
-  onDetailsClick: (nodeId: string) => void;
+  onDetailsClick: (id: string) => void;
   onExtrasClick?: () => void;
+  onBackClick?: () => void;
 }
 
 const nodeTypes = {
   custom: CustomNode,
 };
 
-const DesktopRoadmapInner: React.FC<DesktopRoadmapProps> = ({ root, onDetailsClick, onExtrasClick }) => {
-  const { initialNodes, initialEdges } = useMemo(
-    () => parseRoadmapToFlow(root, onDetailsClick, onExtrasClick),
-    [root, onDetailsClick, onExtrasClick]
+const DesktopRoadmapInner = ({ root, onDetailsClick, onExtrasClick, onBackClick }: DesktopRoadmapProps) => {
+  const { nodes: initialNodes, edges: initialEdges } = useMemo(
+    () => parseRoadmapToFlow(root, onDetailsClick, onExtrasClick, onBackClick),
+    [root, onDetailsClick, onExtrasClick, onBackClick]
   );
 
   const { nodes: layoutedNodes, edges: layoutedEdges } = useMemo(
@@ -52,6 +53,10 @@ const DesktopRoadmapInner: React.FC<DesktopRoadmapProps> = ({ root, onDetailsCli
         onEdgesChange={onEdgesChange}
         nodeTypes={nodeTypes}
         fitView
+        fitViewOptions={{
+          padding: 0.3,  // Add padding around the graph
+          maxZoom: 0.7   // Start at 70% zoom for better overview
+        }}
         attributionPosition="bottom-right"
         minZoom={0.2}
         maxZoom={2}

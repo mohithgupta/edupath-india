@@ -1,0 +1,1241 @@
+{
+  "meta": {
+    "title": "Choose Programming Language",
+    "source": "CarlCheo.com / Infographic (Enhanced)",
+    "description": "A comprehensive flowchart to decide your first programming language based on your goals, interests, and career aspirations.",
+    "version": "2.1",
+    "enhancement_date": "2026-01-30",
+    "learning_resources": {
+      "python": [
+        "Python.org",
+        "Codecademy",
+        "DataCamp",
+        "Coursera - Python for Everybody"
+      ],
+      "javascript": [
+        "MDN Web Docs",
+        "FreeCodeCamp",
+        "Udemy - Complete JS Course"
+      ],
+      "java": [
+        "Oracle Java Tutorials",
+        "CodeAcademy",
+        "LeetCode - Java Track"
+      ],
+      "cpp": [
+        "cplusplus.com",
+        "GeeksforGeeks C++",
+        "CompetitiveProgramming.info"
+      ],
+      "ruby": [
+        "Ruby-lang.org",
+        "Codecademy Ruby",
+        "Rails Tutorial"
+      ],
+      "php": [
+        "PHP.net Official Docs",
+        "W3Schools PHP",
+        "Laracasts"
+      ],
+      "c": [
+        "C Programming by Brian Kernighan",
+        "GeeksforGeeks C",
+        "TutorialsPoint C"
+      ]
+    },
+    "time_to_proficiency": {
+      "basic_competency": "2-3 months of daily practice",
+      "intermediate_level": "6-9 months",
+      "professional_level": "1-2 years with projects"
+    }
+  },
+  "language_selection_guide": {
+    "by_career_goal": {
+      "web_development": {
+        "frontend": [
+          "JavaScript",
+          "TypeScript",
+          "React specialist"
+        ],
+        "backend": [
+          "Python (Django/Flask)",
+          "JavaScript (Node.js)",
+          "Java (Spring Boot)",
+          "C# (ASP.NET)"
+        ],
+        "full_stack": [
+          "JavaScript/TypeScript",
+          "Python + JavaScript"
+        ],
+        "average_web_dev_salary": "\u20b95,00,000 - \u20b912,00,000 p.a.",
+        "job_market": "Extremely High - Thousands of openings"
+      },
+      "data_science": {
+        "recommended": [
+          "Python (primary)",
+          "R (secondary)"
+        ],
+        "libraries": [
+          "NumPy",
+          "Pandas",
+          "Scikit-learn",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "average_salary": "\u20b96,00,000 - \u20b915,00,000 p.a.",
+        "job_market": "Very High - Rapidly growing",
+        "entry_path": "Python \u2192 Machine Learning specialization \u2192 AI"
+      },
+      "gaming_development": {
+        "recommended": [
+          "C++",
+          "C#"
+        ],
+        "engines": [
+          "Unreal Engine (C++)",
+          "Unity (C#)"
+        ],
+        "average_salary": "\u20b95,00,000 - \u20b912,00,000 p.a.",
+        "job_market": "High - Gaming industry booming"
+      },
+      "mobile_app_development": {
+        "ios": [
+          "Swift (recommended)",
+          "Objective-C (legacy)"
+        ],
+        "android": [
+          "Java",
+          "Kotlin (recommended)"
+        ],
+        "cross_platform": [
+          "JavaScript (React Native)",
+          "Python (Kivy)"
+        ],
+        "average_salary": "\u20b94,00,000 - \u20b910,00,000 p.a.",
+        "market_trend": "Cross-platform frameworks becoming popular"
+      },
+      "systems_programming": {
+        "recommended": [
+          "C",
+          "C++",
+          "Rust"
+        ],
+        "use_cases": [
+          "Operating Systems",
+          "Embedded Systems",
+          "Performance-critical apps"
+        ],
+        "difficulty_level": "High",
+        "job_market": "Niche but well-paid"
+      },
+      "competitive_programming": {
+        "recommended": [
+          "C++",
+          "Java",
+          "Python"
+        ],
+        "platforms": [
+          "Codeforces",
+          "LeetCode",
+          "HackerRank"
+        ],
+        "benefits": [
+          "Problem-solving skills",
+          "Interview preparation",
+          "Scholarships"
+        ]
+      }
+    },
+    "by_learning_style": {
+      "absolute_beginner": {
+        "start_with": "Python",
+        "reason": "English-like syntax, forgiving, immediate feedback",
+        "project_idea": "Build a simple calculator or web scraper",
+        "time_to_first_project": "2-4 weeks"
+      },
+      "visual_learner": {
+        "start_with": "Scratch (age < 14) or JavaScript (with HTML/CSS visualization)",
+        "reason": "See immediate visual results, drag-and-drop (Scratch), DOM manipulation (JS)"
+      },
+      "mathematical_mind": {
+        "start_with": "Python or MATLAB (if available)",
+        "reason": "Clean syntax for mathematical operations",
+        "advanced_path": "Python \u2192 NumPy/SciPy \u2192 Machine Learning"
+      },
+      "job_focused": {
+        "best_path": "JavaScript \u2192 Full-stack \u2192 \u20b98,00,000+ p.a. in 2-3 years",
+        "reasoning": "Immediate demand, quick learning curve, rapid salary growth"
+      }
+    }
+  },
+  "roadmap": [
+    {
+      "id": "start",
+      "title": "Why do you want to learn programming?",
+      "type": "root",
+      "color": "orange",
+      "children": [
+        {
+          "id": "kids",
+          "title": "For my kids",
+          "age_group": "Under 14 years",
+          "recommendation": "Start with Scratch, then Python",
+          "children": [
+            {
+              "id": "scratch",
+              "title": "Start with Scratch",
+              "description": "An easy visual programming language.",
+              "what_is_it": "Block-based programming - drag and drop visual blocks",
+              "prerequisites": "None - ideal for 5-16 year olds",
+              "resources": [
+                "scratch.mit.edu",
+                "Code.org",
+                "Khan Academy"
+              ],
+              "project_examples": [
+                "Interactive stories",
+                "Simple games",
+                "Animations"
+              ],
+              "time_investment": "15-30 minutes sessions, 3x per week",
+              "skills_gained": [
+                "Logic thinking",
+                "Problem decomposition",
+                "Creativity"
+              ],
+              "children": [
+                {
+                  "id": "python_kids",
+                  "title": "Move on to Python",
+                  "type": "language",
+                  "meta_ref": "python",
+                  "transition_reason": "Python is text-based evolution of Scratch blocks",
+                  "difficulty_jump": "Moderate - familiar concepts, new syntax",
+                  "age_readiness": "12+ years with prior Scratch experience"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dont_know",
+          "title": "I don't know, just pick one",
+          "recommendation": "Don't overthink it - Python is your safest bet",
+          "note": "You can always learn another language later; concepts transfer across languages",
+          "children": [
+            {
+              "id": "python_default",
+              "title": "Python",
+              "type": "language",
+              "meta_ref": "python",
+              "why_python": "Easiest to learn, most versatile, highest demand",
+              "learning_time": "1-2 months to write first program",
+              "can_build": [
+                "Web apps",
+                "Data analysis",
+                "AI/ML",
+                "Automation",
+                "Game prototypes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "money_job",
+          "title": "Make Money / Get a Job",
+          "color": "green",
+          "salary_potential": "\u20b93,00,000 - \u20b920,00,000+ p.a. depending on specialization",
+          "children": [
+            {
+              "id": "platform",
+              "title": "Which Platform / Field?",
+              "children": [
+                {
+                  "id": "gaming",
+                  "title": "3D / Gaming",
+                  "market_size": "\u20b9200 billion gaming industry in India (growing 30% YoY)",
+                  "salary_range": "\u20b95,00,000 - \u20b915,00,000 p.a.",
+                  "job_titles": [
+                    "Game Developer",
+                    "Graphics Programmer",
+                    "Physics Programmer"
+                  ],
+                  "top_companies": [
+                    "Ubisoft India",
+                    "Junglee Games",
+                    "SuperGaming",
+                    "Wipro Gaming Division"
+                  ],
+                  "skill_requirement": "High - Complex math, optimization, patience",
+                  "children": [
+                    {
+                      "id": "cpp_gaming",
+                      "title": "C++",
+                      "type": "language",
+                      "meta_ref": "cpp",
+                      "engine_specialization": "Unreal Engine (industry standard)",
+                      "starter_project": "Build a 2D platformer in Unreal/Unity"
+                    }
+                  ]
+                },
+                {
+                  "id": "mobile",
+                  "title": "Mobile Apps",
+                  "market_size": "500 million smartphone users in India",
+                  "salary_range": "\u20b94,00,000 - \u20b912,00,000 p.a.",
+                  "job_titles": [
+                    "Mobile Developer",
+                    "iOS Developer",
+                    "Android Developer"
+                  ],
+                  "opportunity": "Massive - Billion-dollar apps being built",
+                  "children": [
+                    {
+                      "id": "mobile_os",
+                      "title": "Which OS?",
+                      "market_analysis": {
+                        "android_share": "72% of Indian smartphones",
+                        "ios_share": "28% of Indian smartphones",
+                        "android_jobs": "More abundant, \u20b94-8 lakhs p.a.",
+                        "ios_jobs": "Fewer but higher pay \u20b96-12 lakhs p.a."
+                      },
+                      "children": [
+                        {
+                          "id": "ios",
+                          "title": "iOS",
+                          "premium_platform": "Higher-paying, users spend more money",
+                          "market_trend": "Premium market, smaller but wealthy user base",
+                          "children": [
+                            {
+                              "id": "obj_c",
+                              "title": "Objective-C (or Swift)",
+                              "type": "language",
+                              "meta_ref": "objective_c",
+                              "modern_choice": "Swift is new standard, Objective-C is legacy",
+                              "learning_path": "Start with Swift (easier, modern)",
+                              "career_note": "iOS developers are in high demand globally"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "android",
+                          "title": "Android",
+                          "market_dominance": "72% of Indian smartphones",
+                          "job_availability": "More jobs than iOS",
+                          "salary_trend": "Competitive with iOS in tier-1 companies",
+                          "children": [
+                            {
+                              "id": "java_mobile",
+                              "title": "Java",
+                              "type": "language",
+                              "meta_ref": "java",
+                              "modern_alternative": "Kotlin (Google's recommended language for Android)",
+                              "learning_path": "Java first, then transition to Kotlin"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "enterprise",
+                  "title": "Enterprise",
+                  "description": "Large corporation systems - Banking, Finance, Govt",
+                  "salary_range": "\u20b96,00,000 - \u20b918,00,000 p.a.",
+                  "job_security": "Extremely High - Stable, pension-backed",
+                  "job_titles": [
+                    "Enterprise Architect",
+                    "Backend Engineer",
+                    "Systems Developer"
+                  ],
+                  "top_employers": [
+                    "TCS",
+                    "Infosys",
+                    "Deloitte",
+                    "Accenture",
+                    "IBM",
+                    "Morgan Stanley",
+                    "Goldman Sachs"
+                  ],
+                  "children": [
+                    {
+                      "id": "microsoft_opinion",
+                      "title": "What do you think about Microsoft?",
+                      "note": "This affects your technology stack choice",
+                      "children": [
+                        {
+                          "id": "ms_fan",
+                          "title": "I'm a fan!",
+                          "ecosystem": "Microsoft Windows, Azure, Office 365",
+                          "advantages": [
+                            "Comprehensive tools",
+                            "Corporate adoption",
+                            "Good salary"
+                          ],
+                          "children": [
+                            {
+                              "id": "c_sharp_ent",
+                              "title": "C#",
+                              "type": "language",
+                              "meta_ref": "c_sharp",
+                              "framework": "ASP.NET Core for web backend",
+                              "cloud_platform": "Microsoft Azure (competitive pay)",
+                              "career_path": "C# \u2192 Azure Specialist \u2192 \u20b912,00,000+ p.a."
+                            }
+                          ]
+                        },
+                        {
+                          "id": "ms_neutral",
+                          "title": "Not Bad / Suck",
+                          "note": "Open to non-Microsoft stacks",
+                          "children": [
+                            {
+                              "id": "java_ent",
+                              "title": "Java",
+                              "type": "language",
+                              "meta_ref": "java",
+                              "framework": "Spring Boot (industry standard)",
+                              "market_position": "Most popular enterprise language",
+                              "career_path": "Java \u2192 Spring Boot Expert \u2192 \u20b912,00,000+ p.a."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "web",
+                  "title": "Web Development",
+                  "market_opportunity": "Millions of websites, apps, startups",
+                  "salary_range": "\u20b93,50,000 - \u20b912,00,000 p.a.",
+                  "job_abundance": "Extremely High - Shortage of good developers",
+                  "job_titles": [
+                    "Frontend Developer",
+                    "Backend Developer",
+                    "Full Stack Developer"
+                  ],
+                  "children": [
+                    {
+                      "id": "frontend",
+                      "title": "Front-end (Web Interface)",
+                      "description": "What users see and interact with",
+                      "technologies": [
+                        "HTML",
+                        "CSS",
+                        "JavaScript",
+                        "React",
+                        "Vue",
+                        "Angular"
+                      ],
+                      "salary_range": "\u20b94,00,000 - \u20b910,00,000 p.a.",
+                      "job_market": "Very High",
+                      "children": [
+                        {
+                          "id": "js_front",
+                          "title": "JavaScript",
+                          "type": "language",
+                          "meta_ref": "javascript",
+                          "must_learn": "Essential for any web developer",
+                          "frameworks": [
+                            "React (most popular)",
+                            "Vue.js (easier)",
+                            "Angular (complex)"
+                          ],
+                          "career_trajectory": "JS \u2192 React specialist \u2192 Senior Frontend \u2192 \u20b910,00,000+ p.a."
+                        }
+                      ]
+                    },
+                    {
+                      "id": "backend",
+                      "title": "Back-end (Brain behind website)",
+                      "description": "Server logic, databases, APIs",
+                      "salary_range": "\u20b95,00,000 - \u20b915,00,000 p.a.",
+                      "job_market": "Very High - Always in demand",
+                      "children": [
+                        {
+                          "id": "startup_corp",
+                          "title": "I want to work for...",
+                          "note": "Tech stack varies by employer type",
+                          "children": [
+                            {
+                              "id": "corporate",
+                              "title": "Corporate",
+                              "environment": "Stable, large teams, processes",
+                              "tech_stack": "Java, C#, older but stable tech",
+                              "work_life": "Standard 9-5, good benefits",
+                              "salary": "\u20b98,00,000 - \u20b918,00,000 p.a.",
+                              "children": [
+                                {
+                                  "id": "ms_check_web",
+                                  "title": "Microsoft User?",
+                                  "children": [
+                                    {
+                                      "id": "c_sharp_web",
+                                      "title": "Yes: C#",
+                                      "type": "language",
+                                      "meta_ref": "c_sharp",
+                                      "framework": "ASP.NET Core",
+                                      "cloud": "Azure",
+                                      "average_salary": "\u20b910,00,000 - \u20b916,00,000 p.a."
+                                    },
+                                    {
+                                      "id": "java_web",
+                                      "title": "No: Java",
+                                      "type": "language",
+                                      "meta_ref": "java",
+                                      "framework": "Spring Boot",
+                                      "ecosystem": "Open source, Linux",
+                                      "average_salary": "\u20b910,00,000 - \u20b916,00,000 p.a."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "startup",
+                              "title": "Startup",
+                              "environment": "Fast-paced, flat structure, rapid learning",
+                              "tech_stack": "JavaScript, Python, modern frameworks",
+                              "work_life": "High intensity, equity incentives possible",
+                              "salary": "\u20b93,50,000 - \u20b910,00,000 p.a. (lower than corporate initially)",
+                              "upside": "Stock options, learning opportunity, rapid career growth",
+                              "children": [
+                                {
+                                  "id": "realtime",
+                                  "title": "Does app provide real-time info?",
+                                  "importance": "Real-time features require different tech",
+                                  "children": [
+                                    {
+                                      "id": "yes_realtime",
+                                      "title": "Yes",
+                                      "examples": [
+                                        "Chat apps",
+                                        "Live notifications",
+                                        "Stock tickers"
+                                      ],
+                                      "tech_needed": "WebSockets, event-driven architecture",
+                                      "children": [
+                                        {
+                                          "id": "js_back",
+                                          "title": "JavaScript",
+                                          "type": "language",
+                                          "meta_ref": "javascript",
+                                          "framework": "Node.js (perfect for real-time)",
+                                          "database": "MongoDB (flexible), PostgreSQL (reliable)",
+                                          "use_case": "Perfect for chat, notifications, live updates"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "no_realtime",
+                                      "title": "No",
+                                      "examples": [
+                                        "Blog",
+                                        "E-commerce catalog",
+                                        "Documentation"
+                                      ],
+                                      "flexibility": "Can use any backend language",
+                                      "children": [
+                                        {
+                                          "id": "python_ruby_php",
+                                          "title": "Python / Ruby / PHP",
+                                          "description": "Review the 'Fun' section to choose between these.",
+                                          "type": "language",
+                                          "meta_ref": "python",
+                                          "python_choice": "Django/Flask - excellent for startups",
+                                          "ruby_choice": "Ruby on Rails - fast development",
+                                          "php_choice": "Laravel/Symfony - if hosting requires it"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fun_interest",
+          "title": "Just for Fun / Interested",
+          "color": "purple",
+          "note": "Learning for passion often leads to better outcomes",
+          "children": [
+            {
+              "id": "idea_check",
+              "title": "Do you have a brilliant idea in mind?",
+              "importance": "Your project idea should drive learning",
+              "children": [
+                {
+                  "id": "yes_idea",
+                  "title": "Yes",
+                  "description": "Go to the 'Get a Job' -> Platform section.",
+                  "advice": "Choose language based on your idea, not trends",
+                  "children": []
+                },
+                {
+                  "id": "no_idea",
+                  "title": "No / Not Sure",
+                  "encouragement": "It's okay! Explore and ideas will come",
+                  "children": [
+                    {
+                      "id": "learning_style",
+                      "title": "I prefer to learn things...",
+                      "children": [
+                        {
+                          "id": "easy_way",
+                          "title": "The Easy Way",
+                          "description": "Minimal friction, instant gratification",
+                          "time_to_first_program": "Hours",
+                          "children": [
+                            {
+                              "id": "python_easy",
+                              "title": "Python",
+                              "type": "language",
+                              "meta_ref": "python",
+                              "why_easy": "English-like syntax, no semicolons, forgiving",
+                              "first_project": "Print statement in 30 seconds"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "best_way",
+                          "title": "The Best Way",
+                          "description": "Most versatile, best for future growth",
+                          "time_to_first_program": "1-2 days",
+                          "children": [
+                            {
+                              "id": "python_best",
+                              "title": "Python",
+                              "type": "language",
+                              "meta_ref": "python",
+                              "reasoning": "Best overall for learning programming fundamentals",
+                              "career_opportunities": "Data Science, AI/ML, Web, Automation"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "harder_way",
+                          "title": "The Slightly Harder Way",
+                          "description": "More control, better understanding of computers",
+                          "time_to_first_program": "1 week",
+                          "children": [
+                            {
+                              "id": "car_analogy",
+                              "title": "Auto or Manual Car?",
+                              "analogy_explanation": "Auto = High-level language (easy, automatic), Manual = Low-level language (harder, control)",
+                              "children": [
+                                {
+                                  "id": "auto_car",
+                                  "title": "Auto",
+                                  "explanation": "Automatic memory management",
+                                  "children": [
+                                    {
+                                      "id": "java_auto",
+                                      "title": "Java",
+                                      "type": "language",
+                                      "meta_ref": "java",
+                                      "difficulty": "Medium - Higher level, but more rules",
+                                      "learning_curve": "2-3 weeks to first meaningful program"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "manual_car",
+                                  "title": "Manual",
+                                  "explanation": "Manual memory management - you control everything",
+                                  "children": [
+                                    {
+                                      "id": "c_manual",
+                                      "title": "C",
+                                      "type": "language",
+                                      "meta_ref": "c",
+                                      "difficulty": "Hard - Total control, lots of rules",
+                                      "learning_curve": "2-4 weeks to understand basics",
+                                      "reward": "Deep understanding of how computers work"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "really_hard",
+                          "title": "The Really Hard Way",
+                          "description": "Maximum control, very steep learning curve",
+                          "time_to_first_program": "2-3 weeks",
+                          "recommendation": "Only if you're really interested in systems programming",
+                          "children": [
+                            {
+                              "id": "cpp_hard",
+                              "title": "C++",
+                              "type": "language",
+                              "meta_ref": "cpp",
+                              "difficulty": "Very Hard - Even C developers find it complex",
+                              "reward": "Can build anything, extreme performance",
+                              "warning": "High dropout rate; only pursue if passionate"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "toy_analogy",
+                      "title": "Which is your favorite toy?",
+                      "description": "Personality match for programming languages",
+                      "children": [
+                        {
+                          "id": "lego",
+                          "title": "Lego",
+                          "personality": "Love building structured things, following rules",
+                          "best_for": "Organized, methodical learners",
+                          "children": [
+                            {
+                              "id": "python_lego",
+                              "title": "Python",
+                              "type": "language",
+                              "meta_ref": "python",
+                              "why_match": "Clean, structured, modular approach"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "playdoh",
+                          "title": "Play-Doh",
+                          "personality": "Love molding, shaping, creative freedom",
+                          "best_for": "Creative, experimental learners",
+                          "children": [
+                            {
+                              "id": "ruby_playdoh",
+                              "title": "Ruby",
+                              "type": "language",
+                              "meta_ref": "ruby",
+                              "why_match": "Flexible, expressive, fun syntax, rapid iteration"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "old_toy",
+                          "title": "Old & Ugly Toy",
+                          "personality": "Love fixing broken things, making things work",
+                          "best_for": "Pragmatic, practical learners",
+                          "children": [
+                            {
+                              "id": "php_toy",
+                              "title": "PHP",
+                              "type": "language",
+                              "meta_ref": "php",
+                              "why_match": "Practical, gets things done, widely available hosting"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "language_details": {
+    "python": {
+      "title": "Python",
+      "official_website": "https://www.python.org/",
+      "lotr_character": "The Ent",
+      "lotr_analogy": "Help little Hobbits (beginners) understand programming concepts. Help Wizards (scientists) conduct research.",
+      "difficulty": 1,
+      "difficulty_explanation": "Easiest language to learn - English-like syntax",
+      "avg_salary": "$107,000 (\u20b988,00,000 globally), \u20b96,00,000 - \u20b912,00,000 in India",
+      "popularity": 5,
+      "job_market_in_india": "Very High - #1 most demanded",
+      "used_to_build": [
+        "YouTube",
+        "Instagram",
+        "Spotify",
+        "Dropbox",
+        "Pinterest",
+        "Reddit"
+      ],
+      "learning_resources": {
+        "free": [
+          "Python.org tutorials",
+          "Codecademy",
+          "FreeCodeCamp"
+        ],
+        "paid": [
+          "DataCamp",
+          "Coursera - Python for Everybody",
+          "Udemy - Complete Python Course"
+        ]
+      },
+      "real_world_uses": {
+        "web_development": [
+          "Django",
+          "Flask",
+          "FastAPI"
+        ],
+        "data_science": [
+          "NumPy",
+          "Pandas",
+          "Scikit-learn"
+        ],
+        "artificial_intelligence": [
+          "TensorFlow",
+          "PyTorch",
+          "Keras"
+        ],
+        "automation": [
+          "Selenium",
+          "Beautiful Soup",
+          "Requests"
+        ],
+        "game_development": [
+          "Pygame"
+        ]
+      },
+      "career_trajectories": [
+        "Python \u2192 Data Science \u2192 \u20b98,00,000 - \u20b918,00,000 p.a.",
+        "Python \u2192 Web Development (Django) \u2192 \u20b96,00,000 - \u20b914,00,000 p.a.",
+        "Python \u2192 Machine Learning Engineer \u2192 \u20b910,00,000 - \u20b925,00,000 p.a."
+      ],
+      "time_to_job_readiness": "4-6 months with focused learning + projects"
+    },
+    "java": {
+      "title": "Java",
+      "official_website": "https://www.oracle.com/java/",
+      "lotr_character": "Gandalf",
+      "lotr_analogy": "Wants peace & works with everyone (portable). Very popular on all platforms, OS, and devices.",
+      "difficulty": 3,
+      "difficulty_explanation": "Medium - Requires understanding of OOP concepts",
+      "avg_salary": "$102,000 (\u20b984,00,000 globally), \u20b97,00,000 - \u20b915,00,000 in India",
+      "popularity": 5,
+      "job_market_in_india": "Very High - Enterprise standard",
+      "used_to_build": [
+        "Gmail",
+        "Minecraft",
+        "Android Apps",
+        "Enterprise applications",
+        "Twitter"
+      ],
+      "key_frameworks": [
+        "Spring Boot",
+        "Hibernate",
+        "Apache Kafka"
+      ],
+      "learning_resources": {
+        "free": [
+          "Oracle Java Tutorials",
+          "GeeksforGeeks Java"
+        ],
+        "paid": [
+          "Udemy - Java Programming",
+          "Coursera - Java Course"
+        ]
+      },
+      "career_trajectories": [
+        "Java \u2192 Backend Developer \u2192 \u20b96,00,000 - \u20b914,00,000 p.a.",
+        "Java \u2192 Enterprise Architect \u2192 \u20b912,00,000 - \u20b925,00,000 p.a.",
+        "Java \u2192 Android Developer \u2192 \u20b95,00,000 - \u20b912,00,000 p.a."
+      ],
+      "time_to_job_readiness": "5-7 months due to steeper learning curve"
+    },
+    "c": {
+      "title": "C",
+      "official_website": "https://en.wikipedia.org/wiki/C_(programming_language)",
+      "lotr_character": "One Ring",
+      "lotr_analogy": "The power of C is known to them all. Everyone wants its power. Lingua franca of programming.",
+      "difficulty": 3,
+      "difficulty_explanation": "Medium-Hard - Manual memory management, pointer concepts",
+      "avg_salary": "$102,000 (\u20b984,00,000 globally), \u20b96,00,000 - \u20b912,00,000 in India",
+      "popularity": 5,
+      "job_market_in_india": "High for embedded systems, systems programming",
+      "used_to_build": [
+        "Operating Systems",
+        "Databases",
+        "Embedded Systems",
+        "Compilers"
+      ],
+      "special_advantage": "Teaches deep understanding of how computers work",
+      "real_world_applications": [
+        "Linux",
+        "Windows (partly)",
+        "Database engines"
+      ],
+      "learning_resources": {
+        "classic_book": "The C Programming Language by Kernighan & Ritchie",
+        "online": [
+          "TutorialsPoint C",
+          "GeeksforGeeks C"
+        ]
+      },
+      "career_trajectories": [
+        "C \u2192 Systems Programmer \u2192 \u20b97,00,000 - \u20b914,00,000 p.a.",
+        "C \u2192 Embedded Systems \u2192 \u20b96,00,000 - \u20b912,00,000 p.a."
+      ],
+      "time_to_job_readiness": "6-8 months"
+    },
+    "cpp": {
+      "title": "C++",
+      "official_website": "https://isocpp.org/",
+      "lotr_character": "Saruman",
+      "lotr_analogy": "Everyone thinks he is the good guy, but once you get to know him, you realize he wants power. Complex version of C.",
+      "difficulty": 5,
+      "difficulty_explanation": "Very Hard - Most complex language, steep learning curve",
+      "avg_salary": "$104,000 (\u20b985,00,000 globally), \u20b97,00,000 - \u20b916,00,000 in India",
+      "popularity": 5,
+      "job_market_in_india": "Moderate - Specialized field, higher pay compensates",
+      "used_to_build": [
+        "Operating Systems",
+        "Game Engines",
+        "Browsers (Chrome)",
+        "Databases",
+        "High-frequency trading systems"
+      ],
+      "warning": "High dropout rate among learners; only pursue if genuinely interested",
+      "special_advantage": "Maximum performance, used in performance-critical applications",
+      "game_engine_dominance": [
+        "Unreal Engine (uses C++)",
+        "Most AAA games"
+      ],
+      "learning_resources": {
+        "classic": [
+          "Bjarne Stroustrup - The C++ Programming Language"
+        ],
+        "online": [
+          "cplusplus.com",
+          "cppreference.com"
+        ]
+      },
+      "career_trajectories": [
+        "C++ \u2192 Game Developer \u2192 \u20b96,00,000 - \u20b915,00,000 p.a.",
+        "C++ \u2192 Systems Engineer \u2192 \u20b98,00,000 - \u20b916,00,000 p.a.",
+        "C++ \u2192 High-Frequency Trading \u2192 \u20b915,00,000 - \u20b940,00,000 p.a."
+      ],
+      "time_to_job_readiness": "9-12 months (long learning curve)"
+    },
+    "javascript": {
+      "title": "JavaScript",
+      "official_website": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "lotr_character": "Hobbit",
+      "lotr_analogy": "Frequently underestimated (powerful). Well-known for the slow, gentle life of the Shire (web browsers).",
+      "difficulty": 2,
+      "difficulty_explanation": "Easy-Medium - Forgiving language, but has quirks",
+      "avg_salary": "$99,000 (\u20b981,00,000 globally), \u20b95,00,000 - \u20b912,00,000 in India",
+      "popularity": 5,
+      "job_market_in_india": "Extremely High - Every website needs it",
+      "used_to_build": [
+        "PayPal",
+        "Uber",
+        "Airbnb",
+        "Netflix",
+        "Slack",
+        "Every modern website"
+      ],
+      "ecosystem": "Massive - Millions of packages on npm",
+      "key_frameworks": [
+        "React",
+        "Vue.js",
+        "Angular",
+        "Node.js"
+      ],
+      "learning_resources": {
+        "free": [
+          "MDN Web Docs",
+          "FreeCodeCamp JavaScript Course"
+        ],
+        "paid": [
+          "Udemy - Complete JavaScript Course",
+          "Coursera"
+        ]
+      },
+      "real_world_uses": {
+        "frontend": [
+          "React",
+          "Vue.js",
+          "Angular"
+        ],
+        "backend": [
+          "Node.js",
+          "Express.js"
+        ],
+        "full_stack": [
+          "MERN Stack",
+          "MEAN Stack"
+        ]
+      },
+      "unique_advantage": "Can do both frontend and backend with same language",
+      "career_trajectories": [
+        "JavaScript \u2192 Frontend Developer \u2192 \u20b95,00,000 - \u20b912,00,000 p.a.",
+        "JavaScript \u2192 Full Stack \u2192 \u20b96,00,000 - \u20b915,00,000 p.a.",
+        "JavaScript \u2192 React Specialist \u2192 \u20b97,00,000 - \u20b916,00,000 p.a."
+      ],
+      "time_to_job_readiness": "3-4 months (fastest to job-ready)"
+    },
+    "c_sharp": {
+      "title": "C#",
+      "official_website": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+      "lotr_character": "Elf",
+      "lotr_analogy": "Beautiful creature used to stay in their land, Rivendell (Microsoft Platform), but recently started to open up.",
+      "difficulty": 3,
+      "difficulty_explanation": "Medium - Similar to Java, tied to Microsoft ecosystem",
+      "avg_salary": "$94,000 (\u20b977,00,000 globally), \u20b96,00,000 - \u20b913,00,000 in India",
+      "popularity": 5,
+      "job_market_in_india": "High - Enterprise standard in Microsoft shops",
+      "used_to_build": [
+        "Microsoft applications",
+        "Games (Unity), Enterprise software",
+        "Azure applications"
+      ],
+      "key_frameworks": [
+        "ASP.NET Core",
+        "Entity Framework",
+        "Unity game engine"
+      ],
+      "learning_resources": {
+        "official": [
+          "Microsoft Docs",
+          "Microsoft Learn platform"
+        ],
+        "online": [
+          "Udemy C# Course"
+        ]
+      },
+      "career_trajectories": [
+        "C# \u2192 ASP.NET Developer \u2192 \u20b96,00,000 - \u20b913,00,000 p.a.",
+        "C# \u2192 Game Developer (Unity) \u2192 \u20b95,00,000 - \u20b912,00,000 p.a.",
+        "C# \u2192 Azure Specialist \u2192 \u20b98,00,000 - \u20b915,00,000 p.a."
+      ],
+      "time_to_job_readiness": "5-6 months"
+    },
+    "ruby": {
+      "title": "Ruby",
+      "official_website": "https://www.ruby-lang.org/",
+      "lotr_character": "Man (Middle Earth)",
+      "lotr_analogy": "Very emotional creature. They feel they are superior & need to rule Middle Earth. Mostly known for Ruby on Rails.",
+      "difficulty": 2,
+      "difficulty_explanation": "Easy-Medium - Very expressive, elegant syntax",
+      "avg_salary": "$107,000 (\u20b988,00,000 globally), \u20b95,00,000 - \u20b911,00,000 in India",
+      "popularity": 4,
+      "job_market_in_india": "Moderate - Declining compared to Python/JavaScript",
+      "used_to_build": [
+        "Hulu",
+        "Groupon",
+        "Slideshare",
+        "Twitch",
+        "Airbnb (initially)"
+      ],
+      "key_framework": [
+        "Ruby on Rails (industry standard)",
+        "Sinatra"
+      ],
+      "special_advantage": "Fastest web development (Ruby on Rails)",
+      "learning_resources": {
+        "interactive": [
+          "Codecademy Ruby",
+          "Treehouse"
+        ],
+        "books": [
+          "Learn to Program by Chris Pine"
+        ]
+      },
+      "career_trajectories": [
+        "Ruby \u2192 Rails Developer \u2192 \u20b95,00,000 - \u20b911,00,000 p.a.",
+        "Ruby \u2192 Startup Developer \u2192 \u20b94,00,000 - \u20b910,00,000 p.a. (+ equity upside)"
+      ],
+      "time_to_job_readiness": "4-5 months",
+      "note": "Popular in startup ecosystem"
+    },
+    "php": {
+      "title": "PHP",
+      "official_website": "https://www.php.net/",
+      "lotr_character": "Orc",
+      "lotr_analogy": "Ugly guy (language) and doesn't respect the rules. Big headache to manage (codes). Suitable for building small sites quickly.",
+      "difficulty": 2,
+      "difficulty_explanation": "Easy - Forgiving, but bad practices are easy to fall into",
+      "avg_salary": "$89,000 (\u20b973,00,000 globally), \u20b94,00,000 - \u20b99,00,000 in India",
+      "popularity": 4,
+      "job_market_in_india": "Moderate-High - Still widely used in web hosting",
+      "used_to_build": [
+        "Wordpress",
+        "Wikipedia",
+        "Flickr",
+        "Slack (backend)",
+        "Etsy"
+      ],
+      "market_share": "82% of websites use PHP (but many are legacy)",
+      "key_frameworks": [
+        "Laravel (modern)",
+        "Symfony",
+        "WordPress"
+      ],
+      "special_advantage": "Cheap hosting everywhere, quick websites",
+      "learning_resources": {
+        "official": [
+          "PHP.net Documentation"
+        ],
+        "courses": [
+          "Udemy - PHP for Beginners"
+        ]
+      },
+      "career_trajectories": [
+        "PHP \u2192 WordPress Developer \u2192 \u20b93,00,000 - \u20b97,00,000 p.a.",
+        "PHP \u2192 Laravel Developer \u2192 \u20b95,00,000 - \u20b910,00,000 p.a."
+      ],
+      "time_to_job_readiness": "3-4 months",
+      "note": "Good for freelancing, WordPress development"
+    },
+    "objective_c": {
+      "title": "Objective-C",
+      "official_website": "https://developer.apple.com/",
+      "lotr_character": "Smaug",
+      "lotr_analogy": "Lonely and loves gold. Primary language used by Apple for Mac OS X & iOS.",
+      "difficulty": 3,
+      "difficulty_explanation": "Medium-Hard - Unique syntax, steep learning curve",
+      "avg_salary": "$107,000 (\u20b988,00,000 globally), \u20b96,00,000 - \u20b914,00,000 in India",
+      "popularity": 3,
+      "job_market_in_india": "Low but Well-Paid - Fewer developers, premium rates",
+      "used_to_build": [
+        "Most iOS Apps (legacy)",
+        "MacOS applications"
+      ],
+      "modern_alternative": "Swift (Apple's new standard, much easier)",
+      "historical_importance": "Dominated iOS development for 10+ years",
+      "learning_resources": {
+        "official": [
+          "Apple Developer Documentation"
+        ],
+        "courses": [
+          "Udemy Objective-C Course (for legacy knowledge)"
+        ]
+      },
+      "career_note": "Being phased out in favor of Swift; only learn if maintaining legacy code",
+      "time_to_job_readiness": "6-8 months (but market declining)"
+    },
+    "swift": {
+      "title": "Swift",
+      "official_website": "https://swift.org/",
+      "release_year": 2014,
+      "successor_to": "Objective-C (Apple's modern replacement)",
+      "difficulty": 2,
+      "difficulty_explanation": "Easy-Medium - Modern, clean syntax",
+      "avg_salary": "\u20b97,00,000 - \u20b915,00,000 in India",
+      "job_market_in_india": "Growing - iOS market booming",
+      "used_to_build": [
+        "Modern iOS Apps",
+        "MacOS apps",
+        "watchOS apps",
+        "tvOS apps"
+      ],
+      "advantage_over_objective_c": "Modern syntax, safer, faster to develop",
+      "learning_resources": {
+        "official": [
+          "Swift.org",
+          "Apple Developer Docs"
+        ],
+        "courses": [
+          "Udemy - iOS Development with Swift"
+        ]
+      },
+      "career_trajectories": [
+        "Swift \u2192 iOS Developer \u2192 \u20b96,00,000 - \u20b914,00,000 p.a.",
+        "Swift \u2192 Senior iOS \u2192 \u20b910,00,000 - \u20b918,00,000 p.a."
+      ],
+      "time_to_job_readiness": "4-5 months (modern iOS development)"
+    },
+    "kotlin": {
+      "title": "Kotlin",
+      "official_website": "https://kotlinlang.org/",
+      "official_status": "Google's preferred language for Android",
+      "difficulty": 2,
+      "difficulty_explanation": "Easy-Medium - Modern, pragmatic",
+      "avg_salary": "\u20b96,00,000 - \u20b913,00,000 in India",
+      "job_market_in_india": "Growing - Android is switching to Kotlin",
+      "advantages": [
+        "Cleaner than Java",
+        "Safer",
+        "Interoperable with Java"
+      ],
+      "learning_path": "Learn Java first OR learn Kotlin directly",
+      "career_trajectories": [
+        "Kotlin \u2192 Android Developer \u2192 \u20b95,00,000 - \u20b912,00,000 p.a.",
+        "Kotlin \u2192 Senior Android \u2192 \u20b99,00,000 - \u20b916,00,000 p.a."
+      ]
+    }
+  },
+  "learning_path_summary": {
+    "fastest_to_job": {
+      "path": "JavaScript \u2192 React \u2192 Get job",
+      "duration": "3-4 months",
+      "entry_salary": "\u20b95,00,000 - \u20b97,00,000 p.a."
+    },
+    "best_overall": {
+      "path": "Python \u2192 Django/Data Science \u2192 Grow skills",
+      "duration": "4-6 months to job",
+      "entry_salary": "\u20b96,00,000 - \u20b99,00,000 p.a.",
+      "career_ceiling": "\u20b915,00,000 - \u20b925,00,000+ p.a."
+    },
+    "highest_pay_potential": {
+      "path": "C++ \u2192 Systems/Game Dev",
+      "duration": "9-12 months (long learning)",
+      "entry_salary": "\u20b97,00,000 - \u20b910,00,000 p.a.",
+      "career_ceiling": "\u20b915,00,000 - \u20b940,00,000+ p.a."
+    },
+    "most_job_security": {
+      "path": "Java \u2192 Enterprise/Spring Boot",
+      "duration": "5-7 months",
+      "job_availability": "Thousands of openings",
+      "entry_salary": "\u20b96,00,000 - \u20b98,00,000 p.a.",
+      "job_security": "Extremely High"
+    }
+  },
+  "tips_for_learning": {
+    "common_mistakes": [
+      "Learning syntax only without building projects",
+      "Jumping between languages instead of mastering one",
+      "Not practicing enough - reading code vs writing code",
+      "Ignoring problem-solving fundamentals",
+      "Not understanding why, just memorizing how"
+    ],
+    "success_strategies": [
+      "Build real projects from day 1",
+      "Join online communities (Reddit r/learnprogramming, Discord servers)",
+      "Follow the 80/20 rule: learn 20% of the language for 80% of your productivity",
+      "Code daily - consistency beats intensity",
+      "Read others' code to learn best practices",
+      "Take on challenging problems gradually"
+    ],
+    "project_progression": {
+      "month_1": [
+        "Hello World",
+        "Calculator",
+        "To-do list"
+      ],
+      "month_2": [
+        "Simple game (Rock-paper-scissors)",
+        "Basic web page"
+      ],
+      "month_3": [
+        "API integration",
+        "Real web app or app"
+      ],
+      "month_4_onwards": [
+        "Contribute to open source",
+        "Build portfolio",
+        "Apply for jobs"
+      ]
+    }
+  }
+}

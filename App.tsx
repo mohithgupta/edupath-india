@@ -107,15 +107,16 @@ export default function App() {
                     <div className="flex items-center gap-4 w-full md:w-auto">
                         <nav className="hidden md:flex gap-1 bg-slate-100 p-1 rounded-lg">
                             <button
-                                onClick={() => setCurrentPage('main')}
+                                onClick={() => handleNavigate('main')}
                                 className={`px-3 py-1.5 rounded-md text-sm font-medium transition-all ${currentPage === 'main' ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
                             >
                                 Main Path
                             </button>
                             <button
-                                onClick={() => setCurrentPage('programming')}
-                                className={`px-3 py-1.5 rounded-md text-sm font-medium transition-all ${(currentPage === 'programming' || currentPage === 'extras') ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+                                onClick={() => handleNavigate('programming')}
+                                className={`px-3 py-1.5 rounded-md text-sm font-medium transition-all flex items-center gap-1 ${(currentPage === 'programming' || currentPage === 'extras') ? 'bg-white text-blue-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
                             >
+                                <Code size={14} />
                                 Programming
                             </button>
                         </nav>
@@ -159,14 +160,14 @@ export default function App() {
 
                 <div className="md:hidden mt-3 flex gap-2 overflow-x-auto pb-1">
                     <button
-                        onClick={() => setCurrentPage('main')}
+                        onClick={() => handleNavigate('main')}
                         className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium border ${currentPage === 'main' ? 'bg-blue-600 text-white border-blue-600' : 'bg-white text-slate-600 border-slate-200'}`}
                     >
                         <Layout size={12} />
                         General
                     </button>
                     <button
-                        onClick={() => setCurrentPage('programming')}
+                        onClick={() => handleNavigate('programming')}
                         className={`flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium border ${(currentPage === 'programming' || currentPage === 'extras') ? 'bg-blue-600 text-white border-blue-600' : 'bg-white text-slate-600 border-slate-200'}`}
                     >
                         <Code size={12} />
@@ -177,21 +178,21 @@ export default function App() {
 
             <main className="flex-1 overflow-hidden relative">
                 {viewMode === 'map' ? (
-                    <div className="h-full w-full animate-fade-in">
+                    <div className="h-full w-full animate-fade-in" key={currentPage}>
                         <DesktopRoadmap
-                            key={currentPage}
                             root={currentMapData.roadmap[0]}
                             onDetailsClick={handleDetailsClick}
                             onExtrasClick={currentPage === 'programming' ? () => handleNavigate('extras') : undefined}
+                            onBackClick={currentPage === 'extras' ? () => handleNavigate('programming') : undefined}
                         />
                     </div>
                 ) : (
-                    <div className="h-full overflow-y-auto p-4 custom-scrollbar bg-slate-50">
+                    <div className="h-full overflow-y-auto p-4 custom-scrollbar bg-slate-50" key={currentPage}>
                         <MobileRoadmap
-                            key={currentPage}
                             root={currentMapData.roadmap[0]}
                             onDetailsClick={handleDetailsClick}
                             onExtrasClick={currentPage === 'programming' ? () => handleNavigate('extras') : undefined}
+                            onBackClick={currentPage === 'extras' ? () => handleNavigate('programming') : undefined}
                         />
                     </div>
                 )}
@@ -199,7 +200,7 @@ export default function App() {
 
             {!isDesktop && viewMode === 'list' && (
                 <div className="absolute bottom-0 w-full bg-white/90 backdrop-blur-md border-t border-slate-200 p-2 text-center text-[10px] text-slate-400 z-10">
-                    EduPath India • 2024
+                    EduPath India
                 </div>
             )}
 

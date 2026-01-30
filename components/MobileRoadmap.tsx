@@ -7,9 +7,10 @@ interface MobileRoadmapProps {
     root: RoadmapNode;
     onDetailsClick: (n: RoadmapNode) => void;
     onExtrasClick?: () => void;
+    onBackClick?: () => void;
 }
 
-const MobileRoadmap: React.FC<MobileRoadmapProps> = ({ root, onDetailsClick, onExtrasClick }) => {
+const MobileRoadmap: React.FC<MobileRoadmapProps> = ({ root, onDetailsClick, onExtrasClick, onBackClick }) => {
     const [history, setHistory] = useState<RoadmapNode[]>([root]);
 
     useEffect(() => {
@@ -83,7 +84,17 @@ const MobileRoadmap: React.FC<MobileRoadmapProps> = ({ root, onDetailsClick, onE
                         className="w-full flex items-center justify-center gap-2 p-4 mb-6 bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white font-bold rounded-xl shadow-lg shadow-violet-200 active:scale-95 transition-all animate-pulse"
                     >
                         <Sparkles size={18} />
-                        Help Me Choose?
+                        Help Me Choose
+                    </button>
+                )}
+
+                {currentNode.showBackToProgramming && onBackClick && (
+                    <button
+                        onClick={onBackClick}
+                        className="w-full flex items-center justify-center gap-2 p-4 mb-6 bg-slate-800 text-white font-bold rounded-xl shadow-lg shadow-slate-200 active:scale-95 transition-all border-2 border-white"
+                    >
+                        <ArrowLeft size={18} />
+                        Back to Hub
                     </button>
                 )}
 
@@ -119,7 +130,7 @@ const MobileRoadmap: React.FC<MobileRoadmapProps> = ({ root, onDetailsClick, onE
                                                 onClick={(e) => { e.stopPropagation(); onExtrasClick(); }}
                                                 className="mt-3 inline-flex items-center gap-1 text-xs font-bold text-violet-600 bg-violet-50 px-2 py-1.5 rounded-md hover:bg-violet-100"
                                             >
-                                                <Sparkles size={12} /> Help Me Choose?
+                                                <Sparkles size={12} /> Help Me Choose
                                             </button>
                                         )}
                                     </div>
